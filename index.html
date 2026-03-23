@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berardi Bros Plumbing & Repairs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <h1>Berardi Bros Plumbing & Repairs</h1>
+  <p>Fix it right. No headaches.</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Leaky pipe? Renovation? We’ve got it handled.</h2>
+    <p>Fast, honest work across Peterborough and surrounding areas.</p>
+    <button onclick="scrollToContact()">Call or Get a Quote</button>
+  </div>
+</section>
+
+<section class="trust">
+  <div>
+    <h3>✔ No nonsense</h3>
+    <p>We tell you what’s wrong and fix it properly.</p>
+  </div>
+  <div>
+    <h3>✔ Shows up on time</h3>
+    <p>No waiting around all day wondering where we are.</p>
+  </div>
+  <div>
+    <h3>✔ Work that lasts</h3>
+    <p>We do it once — and do it right.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>What We Handle</h2>
+  <div class="grid">
+    <div class="card">🚿 Plumbing Repairs</div>
+    <div class="card">🚰 Fixture Installations</div>
+    <div class="card">🛁 Bathroom Renovations</div>
+    <div class="card">🔧 Leak Detection</div>
+    <div class="card">🏠 General Repairs</div>
+    <div class="card">🧰 Maintenance Work</div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    We’re a local crew that believes in doing honest work for a fair price.
+    No upselling, no cutting corners — just solid work you can rely on.
+  </p>
+  <p>
+    Whether it’s a quick fix or part of a bigger job, we treat it like it matters.
+  </p>
+</section>
+
+<section class="cta">
+  <h2>Need Something Fixed?</h2>
+  <p>Call us or send a message — we’ll take care of it.</p>
+  <button onclick="scrollToContact()">Get Started</button>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <p>📍 Peterborough, Ontario</p>
+  <p>📞 (705) 742-4791</p>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="What’s going on?" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="formMessage"></p>
+</section>
+
+<footer>
+  <p>© 2026 Berardi Bros Plumbing & Repairs</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
